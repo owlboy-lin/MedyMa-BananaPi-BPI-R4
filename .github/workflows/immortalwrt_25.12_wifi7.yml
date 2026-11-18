@@ -20,6 +20,7 @@ env:
   OPENWRT_NAME: immortalwrt
   OPENWRT_DEVICE: MT7988_wifi7
   OPENWRT_LINE: '25.12'
+  GITHUB_TOKEN: ${{ secrets.GIT_USER_TOKEN }}
 
 jobs:
   build:
@@ -272,4 +273,4 @@ jobs:
         delete_tags: true
         delete_tag_pattern: '^.*-immortalwrt_MT7988_wifi7-25\.12$'
       env:
-        GITHUB_TOKEN: ${{ secrets.RELEASES_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
