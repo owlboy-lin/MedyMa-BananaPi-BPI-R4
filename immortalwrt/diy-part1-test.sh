@@ -55,7 +55,7 @@ pushd package/community
 git clone --depth=1 -b dev https://github.com/fw876/helloworld
 git clone --depth=1 -b main https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git
 git clone --depth=1 -b main https://github.com/Openwrt-Passwall/openwrt-passwall.git
-git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki
+git clone --depth=1 -b main https://github.com/Openwrt-Passwall/openwrt-passwall2.git
 git clone --depth=1 https://github.com/1522042029/luci-app-socat
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
