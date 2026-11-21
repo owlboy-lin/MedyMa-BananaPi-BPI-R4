@@ -1,4 +1,4 @@
-name: BLLW-immortalwrt_mediatek
+name: BLLW-immortalwrt_mediatek-test
 
 on:
   schedule:
@@ -16,7 +16,7 @@ env:
   CONFIG_FILE: immortalwrt/mediatek/defconfig-test
   DIY_P1_SH: immortalwrt/diy-part1.sh
   DIY_P2_SH: immortalwrt/diy-part2-1.sh
-  Firmware_Name: BLLW-immortalwrt-Banana-Pi-BPI-R4
+  Firmware_Name: BLLW-immortalwrt-Banana-Pi-BPI-R4-test
   OPENWRT_NAME: immortalwrt
   OPENWRT_DEVICE: mediatek
   UPLOAD_BIN_DIR: false
