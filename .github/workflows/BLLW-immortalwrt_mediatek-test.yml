@@ -140,7 +140,6 @@ jobs:
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: 整理文件
-      id: organize
       if: steps.compile.outputs.status == 'success' && !cancelled()
       run: |
         cd openwrt
